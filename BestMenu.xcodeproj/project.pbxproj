@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD369F27219EAF44002B0964 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD369F26219EAF44002B0964 /* RootViewController.m */; };
+		AD369F2A219EAFFE002B0964 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD369F29219EAFFE002B0964 /* HomeViewController.m */; };
 		ADD86ACA219EA3BB0076B34A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD86AC9219EA3BB0076B34A /* AppDelegate.m */; };
 		ADD86AD2219EA3BC0076B34A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADD86AD1219EA3BC0076B34A /* Assets.xcassets */; };
 		ADD86AD5219EA3BC0076B34A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADD86AD3219EA3BC0076B34A /* LaunchScreen.storyboard */; };
@@ -24,6 +26,10 @@
 		0F4E5DC05A3F0EAC25633758 /* Pods-BestMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestMenu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BestMenu/Pods-BestMenu.debug.xcconfig"; sourceTree = "<group>"; };
 		2B6B92736EFC295F452A449A /* Pods-BestMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestMenu.release.xcconfig"; path = "Pods/Target Support Files/Pods-BestMenu/Pods-BestMenu.release.xcconfig"; sourceTree = "<group>"; };
 		864688095839FEAE652EDDD6 /* libPods-BestMenu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BestMenu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD369F25219EAF44002B0964 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		AD369F26219EAF44002B0964 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		AD369F28219EAFFE002B0964 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		AD369F29219EAFFE002B0964 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		ADD86AC5219EA3BB0076B34A /* BestMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADD86AC8219EA3BB0076B34A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ADD86AC9219EA3BB0076B34A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -99,6 +105,8 @@
 			children = (
 				ADD86AC8219EA3BB0076B34A /* AppDelegate.h */,
 				ADD86AC9219EA3BB0076B34A /* AppDelegate.m */,
+				AD369F25219EAF44002B0964 /* RootViewController.h */,
+				AD369F26219EAF44002B0964 /* RootViewController.m */,
 				ADD86AFB219EAD150076B34A /* PrefixHeader.pch */,
 				ADD86AE0219EA8490076B34A /* Main */,
 				ADD86AD1219EA3BC0076B34A /* Assets.xcassets */,
@@ -129,8 +137,8 @@
 		ADD86AE2219EA8490076B34A /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				ADD86AE3219EA8490076B34A /* Mode */,
 				ADD86AE4219EA8490076B34A /* Controller */,
+				ADD86AE3219EA8490076B34A /* Mode */,
 				ADD86AE5219EA8490076B34A /* View */,
 			);
 			path = Home;
@@ -146,6 +154,8 @@
 		ADD86AE4219EA8490076B34A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				AD369F28219EAFFE002B0964 /* HomeViewController.h */,
+				AD369F29219EAFFE002B0964 /* HomeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -326,8 +336,10 @@
 				ADD86AF7219EAC7B0076B34A /* UIView+HUD.m in Sources */,
 				ADD86AF4219EAC7B0076B34A /* UIButton+ImagePosition.m in Sources */,
 				ADD86AF9219EAC7B0076B34A /* UIFont+Category.m in Sources */,
+				AD369F2A219EAFFE002B0964 /* HomeViewController.m in Sources */,
 				ADD86AD8219EA3BC0076B34A /* main.m in Sources */,
 				ADD86AF5219EAC7B0076B34A /* UITextView+JKPlaceHolder.m in Sources */,
+				AD369F27219EAF44002B0964 /* RootViewController.m in Sources */,
 				ADD86AF6219EAC7B0076B34A /* UIView+Frame.m in Sources */,
 				ADD86AF8219EAC7B0076B34A /* UIView+Gradient.m in Sources */,
 				ADD86ACA219EA3BB0076B34A /* AppDelegate.m in Sources */,
