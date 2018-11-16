@@ -8,24 +8,43 @@
 
 /* Begin PBXBuildFile section */
 		ADD86ACA219EA3BB0076B34A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD86AC9219EA3BB0076B34A /* AppDelegate.m */; };
-		ADD86ACD219EA3BB0076B34A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD86ACC219EA3BB0076B34A /* ViewController.m */; };
-		ADD86AD0219EA3BB0076B34A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADD86ACE219EA3BB0076B34A /* Main.storyboard */; };
 		ADD86AD2219EA3BC0076B34A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADD86AD1219EA3BC0076B34A /* Assets.xcassets */; };
 		ADD86AD5219EA3BC0076B34A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADD86AD3219EA3BC0076B34A /* LaunchScreen.storyboard */; };
 		ADD86AD8219EA3BC0076B34A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD86AD7219EA3BC0076B34A /* main.m */; };
+		ADD86AF4219EAC7B0076B34A /* UIButton+ImagePosition.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD86AE8219EAC720076B34A /* UIButton+ImagePosition.m */; };
+		ADD86AF5219EAC7B0076B34A /* UITextView+JKPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD86AEB219EAC720076B34A /* UITextView+JKPlaceHolder.m */; };
+		ADD86AF6219EAC7B0076B34A /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD86AED219EAC720076B34A /* UIView+Frame.m */; };
+		ADD86AF7219EAC7B0076B34A /* UIView+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD86AEF219EAC720076B34A /* UIView+HUD.m */; };
+		ADD86AF8219EAC7B0076B34A /* UIView+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD86AF1219EAC720076B34A /* UIView+Gradient.m */; };
+		ADD86AF9219EAC7B0076B34A /* UIFont+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD86AF2219EAC720076B34A /* UIFont+Category.m */; };
+		D3CE56936E12F54AE20798ED /* libPods-BestMenu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 864688095839FEAE652EDDD6 /* libPods-BestMenu.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F4E5DC05A3F0EAC25633758 /* Pods-BestMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestMenu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BestMenu/Pods-BestMenu.debug.xcconfig"; sourceTree = "<group>"; };
+		2B6B92736EFC295F452A449A /* Pods-BestMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestMenu.release.xcconfig"; path = "Pods/Target Support Files/Pods-BestMenu/Pods-BestMenu.release.xcconfig"; sourceTree = "<group>"; };
+		864688095839FEAE652EDDD6 /* libPods-BestMenu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BestMenu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADD86AC5219EA3BB0076B34A /* BestMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADD86AC8219EA3BB0076B34A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ADD86AC9219EA3BB0076B34A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ADD86ACB219EA3BB0076B34A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ADD86ACC219EA3BB0076B34A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		ADD86ACF219EA3BB0076B34A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ADD86AD1219EA3BC0076B34A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADD86AD4219EA3BC0076B34A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADD86AD6219EA3BC0076B34A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADD86AD7219EA3BC0076B34A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADD86AE8219EAC720076B34A /* UIButton+ImagePosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImagePosition.m"; sourceTree = "<group>"; };
+		ADD86AE9219EAC720076B34A /* UIFont+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Category.h"; sourceTree = "<group>"; };
+		ADD86AEA219EAC720076B34A /* UIView+Gradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Gradient.h"; sourceTree = "<group>"; };
+		ADD86AEB219EAC720076B34A /* UITextView+JKPlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+JKPlaceHolder.m"; sourceTree = "<group>"; };
+		ADD86AEC219EAC720076B34A /* UIView+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HUD.h"; sourceTree = "<group>"; };
+		ADD86AED219EAC720076B34A /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		ADD86AEE219EAC720076B34A /* UIButton+ImagePosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImagePosition.h"; sourceTree = "<group>"; };
+		ADD86AEF219EAC720076B34A /* UIView+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HUD.m"; sourceTree = "<group>"; };
+		ADD86AF0219EAC720076B34A /* UITextView+JKPlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+JKPlaceHolder.h"; sourceTree = "<group>"; };
+		ADD86AF1219EAC720076B34A /* UIView+Gradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Gradient.m"; sourceTree = "<group>"; };
+		ADD86AF2219EAC720076B34A /* UIFont+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Category.m"; sourceTree = "<group>"; };
+		ADD86AF3219EAC720076B34A /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		ADD86AFB219EAD150076B34A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		ADD86AFD219EADF80076B34A /* Marco.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Marco.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +52,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3CE56936E12F54AE20798ED /* libPods-BestMenu.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E8175A90468C904C1EE5979 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				864688095839FEAE652EDDD6 /* libPods-BestMenu.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7EF2A90BCF418E800D6A9C8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F4E5DC05A3F0EAC25633758 /* Pods-BestMenu.debug.xcconfig */,
+				2B6B92736EFC295F452A449A /* Pods-BestMenu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		ADD86ABC219EA3BB0076B34A = {
 			isa = PBXGroup;
 			children = (
 				ADD86AC7219EA3BB0076B34A /* BestMenu */,
 				ADD86AC6219EA3BB0076B34A /* Products */,
+				7EF2A90BCF418E800D6A9C8F /* Pods */,
+				7E8175A90468C904C1EE5979 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,15 +99,98 @@
 			children = (
 				ADD86AC8219EA3BB0076B34A /* AppDelegate.h */,
 				ADD86AC9219EA3BB0076B34A /* AppDelegate.m */,
-				ADD86ACB219EA3BB0076B34A /* ViewController.h */,
-				ADD86ACC219EA3BB0076B34A /* ViewController.m */,
-				ADD86ACE219EA3BB0076B34A /* Main.storyboard */,
+				ADD86AFB219EAD150076B34A /* PrefixHeader.pch */,
+				ADD86AE0219EA8490076B34A /* Main */,
 				ADD86AD1219EA3BC0076B34A /* Assets.xcassets */,
 				ADD86AD3219EA3BC0076B34A /* LaunchScreen.storyboard */,
 				ADD86AD6219EA3BC0076B34A /* Info.plist */,
 				ADD86AD7219EA3BC0076B34A /* main.m */,
 			);
 			path = BestMenu;
+			sourceTree = "<group>";
+		};
+		ADD86AE0219EA8490076B34A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				ADD86AE6219EAC720076B34A /* Expands */,
+				ADD86AE1219EA8490076B34A /* Pages */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		ADD86AE1219EA8490076B34A /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				ADD86AE2219EA8490076B34A /* Home */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		ADD86AE2219EA8490076B34A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				ADD86AE3219EA8490076B34A /* Mode */,
+				ADD86AE4219EA8490076B34A /* Controller */,
+				ADD86AE5219EA8490076B34A /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		ADD86AE3219EA8490076B34A /* Mode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mode;
+			sourceTree = "<group>";
+		};
+		ADD86AE4219EA8490076B34A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ADD86AE5219EA8490076B34A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ADD86AE6219EAC720076B34A /* Expands */ = {
+			isa = PBXGroup;
+			children = (
+				ADD86AFC219EADCB0076B34A /* Marco */,
+				ADD86AE7219EAC720076B34A /* Category */,
+			);
+			path = Expands;
+			sourceTree = "<group>";
+		};
+		ADD86AE7219EAC720076B34A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				ADD86AE9219EAC720076B34A /* UIFont+Category.h */,
+				ADD86AF2219EAC720076B34A /* UIFont+Category.m */,
+				ADD86AEA219EAC720076B34A /* UIView+Gradient.h */,
+				ADD86AF1219EAC720076B34A /* UIView+Gradient.m */,
+				ADD86AEC219EAC720076B34A /* UIView+HUD.h */,
+				ADD86AEF219EAC720076B34A /* UIView+HUD.m */,
+				ADD86AF3219EAC720076B34A /* UIView+Frame.h */,
+				ADD86AED219EAC720076B34A /* UIView+Frame.m */,
+				ADD86AEE219EAC720076B34A /* UIButton+ImagePosition.h */,
+				ADD86AE8219EAC720076B34A /* UIButton+ImagePosition.m */,
+				ADD86AF0219EAC720076B34A /* UITextView+JKPlaceHolder.h */,
+				ADD86AEB219EAC720076B34A /* UITextView+JKPlaceHolder.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		ADD86AFC219EADCB0076B34A /* Marco */ = {
+			isa = PBXGroup;
+			children = (
+				ADD86AFD219EADF80076B34A /* Marco.h */,
+			);
+			path = Marco;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +200,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADD86ADB219EA3BC0076B34A /* Build configuration list for PBXNativeTarget "BestMenu" */;
 			buildPhases = (
+				3AEAF7C557D55D4383CB9A7E /* [CP] Check Pods Manifest.lock */,
 				ADD86AC1219EA3BB0076B34A /* Sources */,
 				ADD86AC2219EA3BB0076B34A /* Frameworks */,
 				ADD86AC3219EA3BB0076B34A /* Resources */,
+				3146F7BD8942B534ADC6931A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,19 +254,82 @@
 			files = (
 				ADD86AD5219EA3BC0076B34A /* LaunchScreen.storyboard in Resources */,
 				ADD86AD2219EA3BC0076B34A /* Assets.xcassets in Resources */,
-				ADD86AD0219EA3BB0076B34A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3146F7BD8942B534ADC6931A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BestMenu/Pods-BestMenu-resources.sh",
+				"${PODS_ROOT}/FontAwesomeKit/FontAwesomeKit/FontAwesome.otf",
+				"${PODS_ROOT}/FontAwesomeKit/FontAwesomeKit/foundation-icons.ttf",
+				"${PODS_ROOT}/FontAwesomeKit/FontAwesomeKit/ionicons.ttf",
+				"${PODS_ROOT}/FontAwesomeKit/FontAwesomeKit/Material-Design-Iconic-Font.ttf",
+				"${PODS_ROOT}/FontAwesomeKit/FontAwesomeKit/octicons.ttf",
+				"${PODS_ROOT}/FontAwesomeKit/FontAwesomeKit/zocial-regular-webfont.ttf",
+				"${PODS_ROOT}/UMCShare/UMShare/UMSocialUI/UMSocialSDKResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.otf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/foundation-icons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Material-Design-Iconic-Font.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zocial-regular-webfont.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BestMenu/Pods-BestMenu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AEAF7C557D55D4383CB9A7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BestMenu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ADD86AC1219EA3BB0076B34A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADD86ACD219EA3BB0076B34A /* ViewController.m in Sources */,
+				ADD86AF7219EAC7B0076B34A /* UIView+HUD.m in Sources */,
+				ADD86AF4219EAC7B0076B34A /* UIButton+ImagePosition.m in Sources */,
+				ADD86AF9219EAC7B0076B34A /* UIFont+Category.m in Sources */,
 				ADD86AD8219EA3BC0076B34A /* main.m in Sources */,
+				ADD86AF5219EAC7B0076B34A /* UITextView+JKPlaceHolder.m in Sources */,
+				ADD86AF6219EAC7B0076B34A /* UIView+Frame.m in Sources */,
+				ADD86AF8219EAC7B0076B34A /* UIView+Gradient.m in Sources */,
 				ADD86ACA219EA3BB0076B34A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,14 +337,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		ADD86ACE219EA3BB0076B34A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ADD86ACF219EA3BB0076B34A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ADD86AD3219EA3BC0076B34A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,35 +462,41 @@
 		};
 		ADD86ADC219EA3BC0076B34A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F4E5DC05A3F0EAC25633758 /* Pods-BestMenu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2QNRK8GSPU;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BestMenu/PrefixHeader.pch";
 				INFOPLIST_FILE = BestMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.swimingmen.bestmenu.BestMenu;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swimingmen.bestmenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
 		ADD86ADD219EA3BC0076B34A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B6B92736EFC295F452A449A /* Pods-BestMenu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2QNRK8GSPU;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BestMenu/PrefixHeader.pch";
 				INFOPLIST_FILE = BestMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.swimingmen.bestmenu.BestMenu;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swimingmen.bestmenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
