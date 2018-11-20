@@ -168,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				ADA9A44D21A28A650009C2BE /* Cover */,
+				C032735D219EBEC4005A1C16 /* Edit */,
 				ADD86AE2219EA8490076B34A /* Home */,
 			);
 			path = Pages;
@@ -241,6 +242,37 @@
 				ADD86AFD219EADF80076B34A /* Marco.h */,
 			);
 			path = Marco;
+			sourceTree = "<group>";
+		};
+		C032735D219EBEC4005A1C16 /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+				C032735F219EBF32005A1C16 /* Model */,
+				C0327360219EBF32005A1C16 /* View */,
+				C032735E219EBF1B005A1C16 /* Controller */,
+			);
+			path = Edit;
+			sourceTree = "<group>";
+		};
+		C032735E219EBF1B005A1C16 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C032735F219EBF32005A1C16 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C0327360219EBF32005A1C16 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
