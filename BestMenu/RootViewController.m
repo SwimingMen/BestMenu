@@ -8,17 +8,21 @@
 
 #import "RootViewController.h"
 #import "HomeViewController.h"
+#import "BMCoverViewController.h"
 
 @interface RootViewController ()
+
+@property (nonatomic, strong) UIImageView *topBgView;
+@property (nonatomic, strong) UIImageView *shopLogoView;
 
 @end
 
 @implementation RootViewController
 
-- (instancetype)initWithRootViewController:(UIViewController *)rootViewController
+- (instancetype)init
 {
-    HomeViewController *home = [[HomeViewController alloc] init];
-    self = [super initWithRootViewController:home];
+    BMCoverViewController *cover = [[BMCoverViewController alloc] init];
+    self = [super initWithRootViewController:cover];
     if (self) {
         
     }

@@ -18,4 +18,6 @@ target 'BestMenu' do
     pod 'UMCShare/Social/ReducedQQ'
     # 集成新浪微博(精简版1M)
     pod 'UMCShare/Social/ReducedSina'
+    pod 'Masonry'
+    pod 'Shimmer'
 end

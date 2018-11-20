@@ -9,7 +9,6 @@
 #ifndef Marco_h
 #define Marco_h
 
-#import "UIView+Frame.h"
 #import "UIView+Gradient.h"
 #import "UIView+HUD.h"
 #import "UIFont+Category.h"

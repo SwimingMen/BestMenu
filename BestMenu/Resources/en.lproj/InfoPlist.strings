@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  BestMenu
+
+  Created by Chonghua Yu on 2018/11/19.
+  Copyright © 2018 SwimingMen. All rights reserved.
+*/
+"CFBundleDisplayName"="BestMenu";
+"NSCameraUsageDescription"="Allow the use of cameras for ranging";
+"NSPhotoLibraryAdditionsUsageDescription"="Whether to allow access to album to save pictures";
+"NSPhotoLibraryUsageDescription"="App needs your permission to access the album";

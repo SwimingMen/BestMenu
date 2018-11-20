@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  BestMenu
+
+  Created by Chonghua Yu on 2018/11/19.
+  Copyright © 2018 SwimingMen. All rights reserved.
+*/
+"CFBundleDisplayName"="最美菜单";
+"NSCameraUsageDescription"="允许使用摄像头来测试距离";
+"NSPhotoLibraryAdditionsUsageDescription"="是否允许访问相册以来保存图片";
+"NSPhotoLibraryUsageDescription"="App需要您的同意,才能访问相册";

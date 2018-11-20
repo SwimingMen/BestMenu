@@ -1,5 +1,5 @@
 //
-//  HomeViewController.h
+//  BMCoverViewController.h
 //  BestMenu
 //
 //  Created by Chonghua Yu on 2018/11/19.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface HomeViewController : UIViewController
+@interface BMCoverViewController : UIViewController
 
 @end
 

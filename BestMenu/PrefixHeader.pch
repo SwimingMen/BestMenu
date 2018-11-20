@@ -13,5 +13,10 @@
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
 #import "Marco.h"
+#import "UIView+Frame.h"
+//#define MAS_SHORTHAND
+#import "Masonry.h"
+
+#define Local(key) NSLocalizedString(key,nil)
 
 #endif /* PrefixHeader_pch */
